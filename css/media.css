@@ -1,0 +1,96 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .header .logo{
+        text-align: center;
+    }
+    .nav-item ul.nav-list{
+        flex-direction: column;
+        align-items: center;
+        background: cadetblue;
+    }
+    .nav-item ul.nav-list li{
+        margin: 1% 0;
+    }
+    .wave{
+        visibility: hidden;
+    }
+    span.icon-bar{
+        display: block;
+
+    }
+    .col-myHeading{
+        text-align: center;
+    }
+    .nav-item ul.nav-list li a{
+        font-size: 18px;
+    }
+    .box,.card-blog{
+        margin: 30px 0;
+    }
+    .heading-UiExpert,.icon-myVideo{
+       
+        text-align: center;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons button{
+        width: 200px;
+        margin-bottom: 1%;
+    }
+    .image-portfolio div{
+        text-align: center
+    }
+    .my-headingPortf{
+        text-align: center;
+    }
+    .list-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        text-align: center;
+    }
+    .wave-image{
+        display: none;
+    }
+ }
+ 
+
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .box,.card-blog{
+        margin: 20px 0;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons button{
+        width: 200px;
+        margin-bottom: 1%;
+    }
+   
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons button{
+        width: 200px;
+        margin-bottom: 1%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   
+ }
